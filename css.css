@@ -1,15 +1,15 @@
- body {
+ body {b
             font-family: 'Noto Sans TC', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            color: #c9c2c2;
             font-family: 'Noto Serif SC', serif;/*額外插入的字型*/
+            background-image: url(images/pexels-dzeninalukac-754194.jpg);
         }
         .dm-container {
             width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #d7d7d5;
+            background-image: url(images/pexels-dzeninalukac-754194.jpg);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
             /* 背景圖片覆蓋整個元素 */
