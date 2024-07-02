@@ -1,0 +1,104 @@
+ body {
+            font-family: 'Noto Sans TC', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Serif SC', serif;/*額外插入的字型*/
+            background-image: url(images/pexels-dzeninalukac-754194.jpg);
+            background-size: cover;
+
+            /* 背景圖片不重複 */
+            background-repeat: no-repeat;
+
+            /* 背景圖片固定位置，滾動時不隨內容滾動 */
+            background-attachment: fixed;
+
+            /* 確保元素填滿整個視窗 */
+            height: 100%; 
+
+            /* 背景圖片居中顯示 */
+            background-position: center;
+        }
+
+         /*~~~~~~~~~~~~~~~~~~~~~~~~~這段要改~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+         .dm-container {
+            width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image: url('images/storeimage.jpg'); /* 設置背景圖片 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            background-size: cover; /* 背景圖片覆蓋整個元素 */
+            background-repeat: no-repeat; /* 背景圖片不重複 */
+            
+            height: 100%; /* 確保元素填滿整個視窗 */
+            background-position: center; /* 背景圖片居中顯示 */
+            opacity: 0.7; /* 設置透明度 */
+        }
+        
+
+        .header{
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%; /* 確保圖片寬度不超過其父元素 */
+            height: auto; /* 自動調整圖片高度以保持寬高比 */
+            display: block; /* 將圖片顯示為塊級元素 */
+            margin: 0 auto; /* 上下邊距為0，左右自動，使圖片在容器中居中 */
+            border-radius: 8px;
+        }
+        
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #482603; /* 按鈕的初始背景顏色 */
+            color: rgb(255, 255, 255); /* 文字顏色 */
+            padding: 15px 32px; /* 內邊距 */
+            text-align: center; /* 文字居中 */
+            text-decoration: none; /* 移除文字下劃線 */
+            display: inline-block; /* 使元素以行內塊元素顯示 */
+            font-size: 20px; /* 文字大小 */
+            margin: 4px 2px; /* 外邊距 */
+            cursor: pointer; /* 滑鼠懸停時顯示指針形狀 */
+            transition: background-color 1s ease; /* 背景顏色變化的過渡效果，持續時間0.5秒，變化方式為ease */
+            
+        }
+    
+            .button:hover {
+                background-color: #0b1efa9f; /* 滑鼠懸停時的背景顏色 */
+            }
+        
+        .button:hover {
+            background-color: #fefefe;
+        }
+                /*這邊是首頁兩個按鈕行距的套框*/
+        .button-container {
+            display: flex;
+            justify-content: space-around; /* 或者使用flex-start來讓按鈕靠左排列 */
+            margin: 1px; /* 按鈕之間的間距 */
+        }
+
+        .taiwan_forn{
+            border-radius: 15px;
+            font-style: strong;
+            font-size: 20px;
+            color: #c73232;
+        }
+
+        .star{
+            font-size: 18px;
+            color: #d68484ab;
+        }
+        .cake{
+        
+        }
