@@ -31,7 +31,7 @@
             
             height: 100%; /* 確保元素填滿整個視窗 */
             background-position: center; /* 背景圖片居中顯示 */
-            opacity: 0.7; /* 設置透明度 */
+            opacity: 0.9; /* 設置透明度 */
         }
         
 
@@ -61,8 +61,8 @@
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            background-color: #482603; /* 按鈕的初始背景顏色 */
-            color: rgb(255, 255, 255); /* 文字顏色 */
+            background-color: #4f4943; /* 按鈕的初始背景顏色 */
+            color: rgb(217, 196, 196); /* 文字顏色 */
             padding: 15px 32px; /* 內邊距 */
             text-align: center; /* 文字居中 */
             text-decoration: none; /* 移除文字下劃線 */
@@ -75,29 +75,31 @@
         }
     
             .button:hover {
-                background-color: #0b1efa9f; /* 滑鼠懸停時的背景顏色 */
+                background-color: #7a5f579f; /* 滑鼠懸停時的背景顏色 */
             }
         
         .button:hover {
-            background-color: #fefefe;
+            background-color: #6c544c9f;
         }
                 /*這邊是首頁兩個按鈕行距的套框*/
         .button-container {
             display: flex;
             justify-content: space-around; /* 或者使用flex-start來讓按鈕靠左排列 */
             margin: 1px; /* 按鈕之間的間距 */
+            
         }
 
         .taiwan_forn{
             border-radius: 15px;
             font-style: strong;
             font-size: 20px;
-            color: #c73232;
+            color: #201508;
+            background-color: #e2c4c4f8;
         }
 
         .star{
             font-size: 18px;
-            color: #d68484ab;
+            color: #fffffffe;
         }
         .cake{
         
